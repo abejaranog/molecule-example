@@ -1,0 +1,7 @@
+---
+
+- name: Add a file with the content in /tmp folder
+  copy:
+    dest: /tmp/hello
+    content: |
+      "File was created!!"
